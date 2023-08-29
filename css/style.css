@@ -392,6 +392,10 @@ body {
     padding: 100px 0 150px;
 }
 
+.tabs {
+    margin-bottom: 70px;
+}
+
 .tabs__btn {
     padding: 0 150px 100px;
     display: flex;
@@ -406,6 +410,7 @@ body {
     border: none;
     background-color: transparent;
     padding: 0;
+    transition: .2s;
 }
 
 .tabs__btn-item--active {
@@ -413,9 +418,13 @@ body {
 }
 
 .tabs__content-item {
-    display: grid;
+    display: none;
     grid-template-columns: repeat(4, 1fr);
     gap: 100px 40px;
+}
+
+.tabs__content-item.tabs__content-item--active {
+    display: grid;
 }
 
 .card {
