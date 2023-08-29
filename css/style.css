@@ -78,6 +78,10 @@ body {
     font-weight: 700;
 }
 
+.menu__list-link--active {
+    color: #0066FF;
+}
+
 .main {
     flex-grow: 1;
 }
