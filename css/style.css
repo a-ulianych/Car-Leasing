@@ -388,6 +388,74 @@ body {
     display: block;
 }
 
+.choose {
+    padding: 100px 0 150px;
+}
+
+.tabs__btn {
+    padding: 0 150px 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.tabs__btn-item {
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+}
+
+.tabs__btn-item--active {
+    color: #0066FF;
+}
+
+.tabs__content-item {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 100px 40px;
+}
+
+.card {
+    text-align: center;
+}
+
+.card__content {
+    padding: 0 5px;
+    border: 1px solid #0066FF;
+    border-top: 0;
+}
+
+.card__img {
+    display: block;
+}
+
+.card__title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.card__text {
+    margin-bottom: 20px;
+}
+
+.card__price {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.card__link {
+    display: block;
+    color: #0066FF;
+    border: 1px solid #0066FF;
+    border-top: 0;
+}
+
 .footer {
     background-color: #151515;
     padding: 50px 0 32px;
