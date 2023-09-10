@@ -1,3 +1,4 @@
+// Tabs in choose section [new-cars.html]
 const tabItem = document.querySelectorAll('.tabs__btn-item');
 const tabContent = document.querySelectorAll('.tabs__content-item');
 
@@ -21,3 +22,11 @@ function open(e) {
 
     document.querySelector(`#${button}`).classList.add('tabs__content-item--active');
 }
+
+// Header menu
+const menuBtn = document.querySelector('.menu__btn');
+const menu = document.querySelector('.menu__list');
+
+menuBtn.addEventListener('click', () => {
+    menu.classList.toggle('menu__list--active');
+});
